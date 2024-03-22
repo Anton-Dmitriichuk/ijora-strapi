@@ -15,20 +15,6 @@ module.exports = ({ env }) => ({
   },
 
 
-  upload: {
-    config: {
-      provider: "strapi-provider-firebase-storage",
-      providerOptions: {
-        serviceAccount: require("C:/proj/ijora-strapi-firebase-adminsdk-d2aex-26675e35c4.json"),
-        // Custom bucket name
-        bucket: env(
-          "STORAGE_BUCKET_URL",
-          "ijora-strapi.appspot.com"
-        ),
-        sortInStorage: true, // true | false
-        debug: false, // true | false
-      },
-    },
-  },
+
 
   });
