@@ -14,7 +14,4 @@ module.exports = ({ env }) => ({
       config:{ FIREBASE_JSON_ENCRYPTION_KEY:"BpNZufhGpWW2uaYacf8tl3FtGtu1npm" }
   },
 
-
-
-
   });
